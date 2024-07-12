@@ -1,0 +1,11 @@
+name: gymnasium
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - gymnasium[all]==0.29.1
+      - ruff==0.5.1
+      - jupyterlab==4.2.3
