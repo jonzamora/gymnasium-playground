@@ -11,4 +11,4 @@ mamba activate gymnasium
 
 ## Resources
 
-- [Make your own custom environment](https://gymnasium.farama.org/tutorials/gymnasium_basics/environment_creation/)
+- [Make your own custom environment](https://gymnasium.farama.org/main/tutorials/gymnasium_basics/environment_creation/)
