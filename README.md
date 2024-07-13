@@ -8,3 +8,7 @@ I am using this repository mostly to document my understanding of the Gymnasium 
 mamba env create -f environment.yaml
 mamba activate gymnasium
 ```
+
+## Resources
+
+- [Make your own custom environment](https://gymnasium.farama.org/tutorials/gymnasium_basics/environment_creation/)
