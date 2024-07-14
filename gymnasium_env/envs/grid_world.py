@@ -57,3 +57,13 @@ class GridWorldEnv(gym.Env):
         """
         self.window = None
         self.clock = None
+
+    def _get_obs(self):
+        return {"agent": self._agent_location, "target": self._target_location}
+
+    def _get_info(self):
+        return {
+            "distance": np.linalg.norm(
+                self._agent_location - self._target_location, ord=1
+            )
+        }
