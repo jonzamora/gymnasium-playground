@@ -2,11 +2,18 @@
 
 I am using this repository mostly to document my understanding of the Gymnasium API
 
-## Getting Started
+## Installation
 
 ```bash
 mamba env create -f environment.yaml
 mamba activate gymnasium
+pip install -e .
+```
+
+## Getting Started
+
+```bash
+python main.py
 ```
 
 ## Resources
