@@ -8,5 +8,4 @@ dependencies:
   - pip:
       - gymnasium[all]==0.29.1
       - ruff==0.5.1
-      - jupyterlab==4.2.3
       - -e .
