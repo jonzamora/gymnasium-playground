@@ -8,5 +8,5 @@ version = "0.0.1"
 dependencies = [
   "gymnasium==0.29.1",
   "pygame==2.6.0",
-  "pre-commit",
+  "ruff",
 ]

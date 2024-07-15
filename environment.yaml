@@ -7,5 +7,5 @@ dependencies:
   - pip
   - pip:
       - gymnasium[all]==0.29.1
-      - ruff==0.5.1
+      - ruff
       - -e .
